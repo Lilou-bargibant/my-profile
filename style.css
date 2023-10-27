@@ -1,0 +1,120 @@
+/* Colors and Graphs */
+
+body {
+	background: #F7E8EE;
+	color: #080A51;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+h1{
+	color: #FE2171;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h2{
+	color: #FE2171;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+p{
+	color: #080A51;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: lighter;
+}
+a{
+	color: #F7E8EE;
+	font-weight: lighter;
+}
+
+a:hover{
+	font-weight: bolder;
+	color: #FE2171;
+}
+
+
+/* Custom design with class (99% of my design) */
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-widht: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-widht: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-widht: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.&);
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #F6E7EE;
+	color: #FE2171;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #FE2171;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #C8C8C8;
+}
+
+.list-inline i:hover {
+	color: #FE2171;
+}
+
+/* Design adjustments using id (1% disign remaining) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
